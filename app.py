@@ -7,6 +7,7 @@ def landingpage():
     return render_template('landingpage.html')
     
 @app.route('/MetodoViolao8Semanas/checkout')
+@app.route('/metodoviolao8semanas')
 def checkout():
     return render_template('checkout.html')
 
