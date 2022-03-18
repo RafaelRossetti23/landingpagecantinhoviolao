@@ -2,11 +2,11 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/MetodoViolao8Semanas')
 def landingpage():
     return render_template('landingpage.html')
     
-@app.route('/checkout')
+@app.route('/MetodoViolao8Semanas/checkout')
 def checkout():
     return render_template('checkout.html')
 
