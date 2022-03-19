@@ -10,7 +10,7 @@ def landingpage():
 @app.route('/MetodoViolao8Semanas/checkout')
 
 def checkout():
-    return render_template('checkout.html')
+    return render_template('checkout_.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
