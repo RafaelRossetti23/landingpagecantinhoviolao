@@ -24,8 +24,9 @@ def formula_violao():
 
 @app.route('/whatsapp')
 def whatsapp():
+    title = "WhatsApp..."
     url = "https://web.whatsapp.com/"
-    return render_template('redirect.html', url=url)
+    return render_template('redirect.html', url=url, title=title)
 
 
 @app.route('/MetodoViolao8Semanas')
