@@ -10,6 +10,32 @@ body{
     font-family: 'roboto', sans-serif !important;
     
 }
+.instagram-grad{
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    width: 100%;
+}
+.header i{
+    font-size: 3rem;
+    padding-right: 10px;
+    color: white;  
+}
+.header p{
+    position: relative;
+    text-align: center;
+}
+.recomendado {
+    color: green;
+    font-size: 1.8rem;
+}
+.fa-1x {
+    font-size: 1rem !important;
+}
+.fa-circle-check {
+    height: 100%;
+    padding: 18px 0px 0px 5px !important;
+    position: absolute; 
+    color: #2a95e8 !important;  
+}
 
 .blue-dark {
     background-color: rgb(7, 8, 33);
@@ -22,9 +48,19 @@ section#mainpage {
     height: 100%;
 }
 .links a,
-.bg-img a {
+.bg-img a,
+.header a {
     text-decoration: none;  
     color: white;
+}
+.about-us {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
 .links ul{
     list-style: none;
@@ -41,28 +77,7 @@ section#mainpage {
     text-align: center;
     
 }
-.bg-img i{
-    font-size: 3rem;
-    padding-right: 10px;
-    color: white;
-    
-}
-.bg-img p{
-    position: relative;
-    text-align: center;
-}
-.recomendado {
-    color: green;
-    font-size: 1.8rem;
-}
-.fa-1x {
-    font-size: 1rem !important;
-}
-.fa-circle-check {
-    height: 100%;
-    padding: 18px 0px 0px 5px !important;
-    position: absolute;   
-}
+
 .instagram_title_link{
     font-size: 3rem;
 }
