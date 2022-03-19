@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 10px;
+    background-color: rgb(7, 8, 33);
+}
+.blue-dark {
+    background-color: rgb(7, 8, 33);
+}
+section#mainpage {
+    width: auto;
+}
+.bg-img img{
+    width: 100%;
+    height: 100%;
+}
+.links a {
+    text-decoration: none;  
+    color: white;
+}
+.links ul{
+    list-style: none;
+}
+.links h1{
+    text-align: center;   
+}
+.links h1>i{
+    padding: 10px;
+    color: red
+}
+.links li{
+    padding: 20px;
+    border-bottom: 2px solid white;
+    font-size: 3.0rem;
+    text-align: center;
+    
+}
+.links p {
+    text-align: center;
+    margin-top: 10px;
+    color: white
+}
+.links p i{
+    font-size: 5rem;
+}
+
+#footer p{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    font-size: 1.3rem;
+}
+#footer a {
+    color: white;
+}
