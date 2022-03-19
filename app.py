@@ -18,8 +18,9 @@ def curso_gratis():
 
 @app.route('/fv')
 def formula_violao():
+    title = "Fórmula Violão"
     url = "http://bit.ly/curso-recomendado-formula-violao"
-    return render_template('redirect.html', url=url)
+    return render_template('redirect.html', url=url, title=title)
 
 @app.route('/whatsapp')
 def whatsapp():
