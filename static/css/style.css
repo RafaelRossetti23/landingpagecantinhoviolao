@@ -47,7 +47,25 @@ section#mainpage {
     color: white;
     
 }
-
+.bg-img p{
+    position: relative;
+    text-align: center;
+}
+.recomendado {
+    color: green;
+    font-size: 1.8rem;
+}
+.fa-1x {
+    font-size: 1rem !important;
+}
+.fa-circle-check {
+    height: 100%;
+    padding: 18px 0px 0px 5px !important;
+    position: absolute;   
+}
+.instagram_title_link{
+    font-size: 3rem;
+}
 #footer p{
     text-align: center;
     color: white;
