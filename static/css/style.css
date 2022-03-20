@@ -37,8 +37,10 @@ iframe {
 .header{
     text-align: center;
 }
-.nav li>a:hover{
-    background-color: inherit;
+.nav li a:active,
+.nav li a:focus,
+.nav li a:hover {
+    background: none!important;
 }
 .navbar {
     padding: 0;
