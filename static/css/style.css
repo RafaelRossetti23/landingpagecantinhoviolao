@@ -5,34 +5,60 @@
     margin: 0;
 }
 body{
-    padding: 0 10px;
+    
     background-color: rgb(7, 8, 33);
     font-family: 'roboto', sans-serif !important;
     
+    
 }
+iframe {
+    width: 100%;
+    padding:10px;
+    height: 1080px;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: block;
+}
+
 .instagram-grad{
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    width: 100%;
+    
 }
-.header i{
-    font-size: 3rem;
-    padding-right: 10px;
+.icon-instagram i{
+    position: absolute;
+    font-size: 2rem;
+    margin: -15px 0 0 -20px;
     color: white;  
+    
 }
-.header p{
-    position: relative;
+.header{
     text-align: center;
+}
+.nav li>a:hover{
+    background-color: inherit;
+}
+.navbar {
+    padding: 0;
+    min-height: max-content;
+}
+.nav li{
+    display: inline-block;
+    height: 100%;
 }
 .recomendado {
     color: green;
     font-size: 1.8rem;
 }
+
 .fa-1x {
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
 }
 .fa-circle-check {
     height: 100%;
-    padding: 18px 0px 0px 5px !important;
+    padding: 8px 0px 0px 5px !important;
     position: absolute; 
     color: #2a95e8 !important;  
 }
@@ -89,4 +115,12 @@ section#mainpage {
 }
 #footer a {
     color: white;
+}
+#main {
+    position: absolute;
+    z-index: 2;
+    display: contents;
+}
+#mainpage {
+    padding: 0 10px !important;
 }

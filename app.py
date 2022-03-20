@@ -41,5 +41,11 @@ def checkout():
     title = "Checkout: Metodo Violão 8 Semanas"
     return render_template('iframe.html', url=url, title=title)
 
+@app.route('/getcook')
+def getcook():
+    url= "/getcookie.html"
+    title = "getcookie"
+    return render_template('getcookie.html', url=url, title=title)
+
 if __name__ == "__main__":
     app.run(debug=True)
