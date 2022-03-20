@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     fv = '/fv'
     mv8s = '/mv8s'
-    whatsapp = '/whatsapp'
+    whatsapp = 'https://api.whatsapp.com/send?phone=5514997648079'
     return render_template('index.html', fv=fv, mv8s=mv8s, whatsapp=whatsapp)
 
 @app.route('/fv')
