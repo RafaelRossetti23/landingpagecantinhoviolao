@@ -7,8 +7,15 @@ app = Flask(__name__)
 def index():
     fv = '/fv'
     mv8s = '/mv8s'
+    sdz = '/sdz'
     whatsapp = 'https://api.whatsapp.com/send?phone=5514997648079'
-    return render_template('index.html', fv=fv, mv8s=mv8s, whatsapp=whatsapp)
+    return render_template('index.html', fv=fv, mv8s=mv8s, whatsapp=whatsapp, sdz=sdz)
+
+@app.route('/sdz')
+def cursodeviolaosdz():
+    title = "Curso de Violão - Sai do Zero"
+    url = "https://bit.ly/saidozeroviolão"
+    return render_template('redirect.html', url=url, title=title)
 
 @app.route('/fv')
 def formula_violao():
